@@ -134,3 +134,145 @@
     margin-left: -338px;
     text-align: center;
 }
+
+.index-menu {
+    position: relative;
+    border-top: 4px solid #f34949;
+
+}
+
+.index-menu .menu-tips{
+    height: 75px;
+    width: 156px;
+    position: absolute;
+    left: 50%;
+    top:0;
+    margin-left: -78px;
+    text-align: center;
+    line-height: 65px;
+    color: #ffffff;
+    background-color: #f34949;   
+}
+.index-menu .menu-tips::after{
+    position: absolute;
+    margin-top:40px;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #ffffff;
+}
+
+
+.menu-list{
+    margin-top:120px;
+    color: #555;
+}
+
+.menu-list ul{
+    width: 1160px;
+    /*background: #003bb3;*/
+
+}
+
+.menu-list .menu-item{
+    float: left;
+    width:520px;
+    margin-right: 60px;
+    margin-bottom: 56px;
+} 
+
+.menu-list .menu-item .item-title,.menu-list .menu-item .line{
+    float: left;
+}
+
+.menu-list .menu-item .item-price{
+  
+    float: right;
+}
+.menu-list .menu-item .item-title{
+    width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    /*什么意思*/
+    text-overflow: ellipsis;
+    /*超出则显示为...*/
+}
+
+.menu-list .menu-item .item-title .comment{
+    margin-top:4px;
+    color: #b7b7b7;
+    font-size: 12px;
+}
+
+.menu-list .menu-item .item-title h4{
+    margin: 0;
+}
+
+.menu-list .menu-item .line{
+    margin-top:10px;
+    width: 192px;
+    border-top: 1px solid #e3e1e1;
+}
+
+.index-menu .menu-more-btn{
+    margin: 0 auto;
+    padding-left: 16px;
+    height: 32px;
+    width: 114px;
+    font-size: 10px;
+    line-height: 32px;
+
+    border: 1px solid #d7d5d5;
+    color: #d7d5d5;
+}
+
+.index-pannel{
+    margin-top: 200px;
+
+}
+
+.index-banner-header {
+    
+}
+
+.index-banner-header h3{
+    float: left;
+    margin-right: 48px;
+    font-size: 20px;
+    color: #3b3b3b;
+    font-weight: normal;
+}
+
+/*.index-banner-header h3{
+    margin: 0;
+}*/
+
+.index-banner-header .line{
+    float: left;
+    margin-top:7px;
+    width: 200px;
+    border-top: 1px solid #e5e5e3;
+}
+
+.index-banner-header .btn-group{
+
+    float: right;
+    font-size: 0;
+}
+
+.index-banner-header .btn-group a{
+    display: inline-block;
+    margin-left: 11px;
+    height: 9px;
+    width: 9px;
+    background: #dedede;
+    border-radius: 50%;
+}
+
+.index-banner-header .active{
+    /*background-color: */
+}
