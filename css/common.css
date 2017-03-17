@@ -253,13 +253,13 @@
 
 .index-banner-header .line{
     float: left;
-    margin-top:7px;
+    margin-top:13px;
     width: 200px;
     border-top: 1px solid #e5e5e3;
 }
 
 .index-banner-header .btn-group{
-
+    margin-top:10px;
     float: right;
     font-size: 0;
 }
@@ -275,4 +275,24 @@
 
 .index-banner-header .active{
     /*background-color: */
+    background-color: #000000;
 }
+
+.index-pannel .index-banner-body{
+    margin-top: 60px;
+}
+
+.index-food-list{
+    overflow: hidden;
+}
+
+.index-food-list ul{
+    width:1160px;
+}
+
+.index-food-list ul l.item{
+
+}
+
+
+
