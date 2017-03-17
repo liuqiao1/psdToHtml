@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/common.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>  
+    <!--什么时候用id，什么时候用class？
+    尽量用class，如果要使用id，必须声明i一个规范 -->
+    <div class="public-header">
+        <!--使用到浮动的地方加上清除浮动-->
+        <div class="public-container clearfix">
+            <!--尽量让块级元素的兄弟姐妹都是块级-->
+            <!--关于图片，什么时候写在css里做背景，什么时候直接写成html的<img>
+            不常变动的图片写在css 经常变动的写在html(要从后台加载)-->
+            <div class="header-logo"><a href=""></a></div>
+            <ul class="header-nav clearfix">
+                <!--/*除去全局样式，其余地方不建议直接对标签添加样式*/ 所以给每个item都加上class-->
+                <li class="item"><a href="">Our Story</a></li>
+                <li class="item"><a href="">Menu</a></li>
+                <li class="item"><a href="">Reservations</a></li>
+                <li class="item"><a href="">News</a></li>
+                <li class="item"><a href="">Rviews</a></li>                            
+            </ul>
+        </div>
+
+    </div>
+    <div class="index-banner"> 
+       <div class="index-banner-bg">
+            <img src="image/index-banner-bg.jpg">
+       </div>
+        <div class="index-banner-text">
+            <div class="text-logo">
+                <!--<img src="image/banner-logo-text.png">-->
+            </div>
+            <i class="line"></i>
+            <p class="text-info">
+                <span class="text">resto restaurant home page website template</span>
+            </p>
+            <i class="line"></i>
+        </div>
+        
+
+    </div>
+    <div class="public-container index-pannel">
+         <div class="index-banner-header">Featured Dishes</div>
+    </div>
+    <div class="public-container index-pannel">
+         <div class="index-banner-header">Featured Dishes</div>
+    </div>
+    <div class="public-footer">
+         <div class="public-container clearfix">
+           
+             <div class="footer-col">
+                 <p>New York Restaurant<br>
+                    3926 Anmoore Road<br>
+                    New York, NY 10014<br>
+                    718-749-1714</p>
+           
+             </div>
+             <div class="footer-col">
+                 <p>France Restaurant<br>
+                    68, rue  de la Couronne<br>
+                    75002 PARIS<br>
+                    02.94.23.69.56</p>
+             </div>
+             <div class="footer-col">
+                 <p>Blog<br>
+                    Careers<br>
+                    Privacy Policy<br>
+                    Contact</p>
+             </div>
+             <div class="footer-col">
+                <div class="footer-logo"></div>
+                 <p>
+                     © All Rights Reserved 2014.<br>
+                    Find  More at Pixelhint.com
+                 </p>
+             </div>
+            
+
+             
+   
+         </div>
+    </div>
+    <!--命名规范，范围横杠实例-->
+
+   
+</html>
+

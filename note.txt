@@ -1,0 +1,6 @@
+PS 操作快捷键
+ctrl + alt + 上下滚动 ：放大缩小
+ctrl+alt+z： 退一步
+ctrl+shift+z： 进一步
+切图：
+选出图层，右键转成智能对象，ctr+c复制，ctrl+N新建，ctrl+c复制，保存为web用图

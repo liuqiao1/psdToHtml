@@ -1,0 +1,136 @@
+.public-header{
+    height: 110px;
+    /*background-color: saddlebrown;*/
+}
+/*居中容器*/
+.public-container{
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+    /*height: 100px;*/
+    /*background: salmon;*/
+}
+
+.public-footer{
+    padding-top: 100px;
+    height: 216px;
+    background-color: #3b3b3b;
+}
+
+/*除去全局样式，其余地方不建议直接对标签添加样式*/
+
+.header-logo{
+    float: left;
+    margin-top: 40px;
+    /*width: 182px;
+    height: 54px;*/
+    /*盒子，方位写在前，颜色边框写在后*/
+    background-image: url("../image/index-header-logo.png");
+}
+
+.header-logo a{  
+    width: 182px;
+    height: 54px;
+}
+
+.header-nav{
+    float: right;
+}
+
+.header-nav .item{
+    float: left;
+    margin-top: 46px;
+    margin-left: 50px;
+}
+
+.header-nav .item a{
+    font-size: 1px;
+    color: #3b3b3b;
+}
+
+.header-nav .item a:hover{
+   
+}
+
+.footer-col{
+    float: left;
+    width:230px;
+    /*margin-top: 100px;*/
+    /*footer 下第一代 所有元素顶部都有100px间距，
+    所以直接加在footer 的padding-top比较好，再把高度减少100px*/
+    margin-right: 60px;
+    font-size: 14px;
+    color: #ffffff;
+    /*颜色建议统一用编号，不用单词*/
+    line-height: 20px;
+}
+
+.footer-col:last-child{
+    margin-right: 0;
+}
+
+.footer-col .footer-logo{
+    margin-top: -16px;
+    margin-bottom: 10px;
+    height: 54px;
+    width: 182px;
+    /*overflow: visible;*/
+    /*z-index: 99;*/
+    background-image: url("../image/footer-logo.png");
+}
+
+.index-banner{
+    position: relative;
+}
+
+.index-banner .index-banner-bg{
+    height: 570px;
+    /*width: 1500px;*/
+   
+    overflow: hidden;
+}
+
+.index-banner .index-banner-bg img{
+     margin: 0 auto;
+}
+
+.index-banner-text .text-logo{
+    width: 776px;
+    height: 118px;
+    margin-bottom: 18px;
+    background-image: url("../image/banner-logo-text.png");
+}
+
+.index-banner-text .text-info{
+    /*margin: 0 auto;*/
+    
+    margin-top: 18px;
+    /*text-align: center;*/
+    font-size: 10px;
+    color: #ffffff;
+    display: inline;
+    /*display: inline-block;*/
+
+}
+
+
+.index-banner-text .text-info .text{
+    margin: 0 26px;
+    display: inline;
+}
+
+.index-banner-text .line{ 
+    display: inline-block;
+    margin-top:4px;
+    width:20px;
+    height: 3px;
+    border-top: 1px solid #ffffff;
+}
+
+.index-banner-text{
+    position: absolute;  
+    top:200px;
+    left: 50%;
+    margin-left: -338px;
+    text-align: center;
+}

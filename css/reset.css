@@ -1,0 +1,33 @@
+/*全局样式*/
+
+/*去除浏览器默认的边距，清扫战场*/
+body,div,ul,li,dl,dt,dd,a,p,h1,h2,h3,textarea{
+    margin: 0;
+    padding: 0;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*这种方式不建议使用，因为有些元素没有必要致其于死地*/
+/**{
+    margin: 0;
+    padding: 0; 
+}*/
+
+ol,ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+img{
+    display: block;
+    border: none;
+}
+
+/*清除浮动*/
+.clearfix{
+    overflow: auto;
+}
